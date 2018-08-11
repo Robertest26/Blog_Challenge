@@ -1,0 +1,36 @@
+.barra-superior{
+  max-height: 5rem;
+}
+
+.barra-superior .row{
+  margin-bottom: 0;
+}
+
+.logo-buscador {
+  margin-bottom: 0;
+}
+
+.logo {
+  width: 40px;
+  margin-top: 0.5rem;
+  float: left;
+}
+
+.search-field {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+
+.contenedor-botones {
+  margin-top: 1rem;
+}
+
+div[class*="columna"]{
+  min-height: 50rem !important;
+}
+
+div[class*="bloque"]{
+  height: 25rem;
+  overflow: scroll;
+}
