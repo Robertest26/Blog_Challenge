@@ -1,15 +1,35 @@
-nav {
-  min-height: 5.5rem !important;
+body {
+  background-image: url(../img/fondo.svg);
+  background-attachment: fixed;
 }
 
-.brand-logo {
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
-  width: 120px;
-  height: 64px;
-  border-radius: 5px;
+.logo {
+  margin-top: 4rem;
+  max-width: 120px !important;
+  border-radius: 10px;
+}
+
+#try {
+  padding: 0 !important;
 }
 
 .slogan {
-  margin:auto;
+  margin-top: 7rem;
+}
+
+.slogan h4 {
+
+}
+
+@media (max-width:480px) {
+  .logo {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .slogan{
+    margin-top: 0;
+    margin-left: 6rem;
+  }
 }
