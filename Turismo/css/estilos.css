@@ -33,6 +33,10 @@ margin-top: 15px;
   min-height: 500px;
 }
 
+.perfil {
+  max-width: 150px !important;
+  margin-top: 1rem;
+}
 
 @media (max-width:480px) {
   .logo {
