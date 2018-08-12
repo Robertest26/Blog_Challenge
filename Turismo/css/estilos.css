@@ -3,6 +3,10 @@ body {
   background-attachment: fixed;
 }
 
+img {
+  width: 100%;
+}
+
 .logo {
   margin-top: 4rem;
   max-width: 120px !important;
@@ -17,9 +21,10 @@ body {
   margin-top: 7rem;
 }
 
-.slogan h4 {
-
+.icono {
+margin-top: 3px;
 }
+
 
 @media (max-width:480px) {
   .logo {
