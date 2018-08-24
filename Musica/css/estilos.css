@@ -1,0 +1,21 @@
+body {
+  background-image: url(../img/Guitar.jpg);
+  background-attachment: fixed;
+  color: white;
+}
+
+.socialmedia {
+  margin-top: 12%;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: black;
+}
+
+table a {
+  color: white;
+}

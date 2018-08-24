@@ -9,32 +9,103 @@
     <title>Blog de Música</title>
   </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <header>
       <div class="row">
-        <div class="col-3 mr-auto">
-          <img src="img/LogoMusic1.png" alt="logo">
+        <div class="col-md-2 col-sm-8">
+          <img src="img/LogoMusic1.png" alt="logo" class="img-fluid rounded">
         </div>
-        <div class="col btn-group">
-
+        <div class="col-md-4 col-xs-6 offset-md-6 socialmedia">
+          <button type="button" class="btn btn-info"><i class="fab fa-facebook-square"></i></button>
+          <button type="button" class="btn btn-warning"><i class="fab fa-twitter-square"></i></button>
+          <button type="button" class="btn btn-success "><i class="fab fa-whatsapp-square"></i></button>
+          <button type="button" class="btn btn-dark"><i class="fab fa-instagram"></i></button>
+          <button type="button" class="btn btn-danger"><i class="fab fa-youtube-square"></i></button>
         </div>
       </div>
+      <nav class="navbar navbar-expand-md bg-warning navbar-light justify-content-center">
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Artistas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Grupos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Top-10</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Letras</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Artistas</a></li>
+        </ul>
+      </nav>
     </header>
+    <div class="row">
+      <div class="col-9">
+        <div class="row">
+          <div class="col-md-7 col-xs-12">
+            <h2 class="mt-0 mb-1 display-4">Freddy Mercury</h2>
+            <p class="text-justify"><strong>Freddie Mercury</strong> (nacido como Farrokh Bulsara, en guyaratí, Stone Town, Zanzíbar; 5 de septiembre de 1946-Kensington, Londres, Reino Unido; 24 de noviembre de 1991) fue un cantante, compositor, pianista, y músico británico de origen parsi e indio, conocido por haber sido el líder y vocalista de la banda de rock Queen.
+            </p>
+            <p class="text-justify">Como intérprete, ha sido reconocido por su poderosa voz y extravagantes puestas en escena. Como compositor, escribió muchos de los éxitos de Queen, tales como Bohemian Rhapsody, Killer Queen, Somebody to Love, Don't Stop Me Now, Crazy Little Thing Called Love, Innuendo o We Are the Champions. Además de la actividad con la banda, en los años ochenta lanzó su carrera como solista, que lo llevó a publicar dos álbumes, Mr. Bad Guy (1985) y Barcelona (1988), este último en colaboración con la soprano española Montserrat Caballé. El sencillo homónimo, una colaboración entre ambos, fue la canción oficial de los Juegos Olímpicos de Barcelona 1992.
+            </p>
+          </div>
+          <div class="col-md-5 col-xs-12 mt-4">
+            <img class="mt-5 img-fluid" src="img/Freddie_Mercury.jpg" alt="Freddie Mercury">
+          </div>
+          <div class="col-1 mt-4 mb-5">
+            <i class="fas fa-user-tie fa-4x"></i>
+          </div>
+          <div class="col-8 mt-4 ml-4">
+            <textarea class="form-control" rows="3" placeholder="Comentario..."></textarea>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-xs-12 mt-4">
+          <img class="mt-5 img-fluid" src="img/Queen.jpg" alt="Queen">
+        </div>
+        <div class="col-md-7 col-xs-12">
+          <h2 class="mt-0 mb-1 display-4 text-center">Queen</h2>
+          <p class="text-justify">Con unas ventas estimadas en torno a 200 millones de discos, Queen es uno de los grupos más exitosos de todos los tiempos; su primer álbum compilatorio, Greatest Hits (1981), es todavía el álbum más vendido en la historia del Reino Unido con 6 millones de copias en este país.​ Queen fue nombrado el decimotercer mejor artista de hard rock de todos los tiempos en una lista elaborada por VH1 (VH1's 100 Greatest Artists of Hard Rock list);​ además, en un sondeo realizado por la emisora BBC Radio en 2007, Queen fue elegido como «el mejor grupo británico de todos los tiempos».
+          </p>
+          <p class="text-justify">En 2018, la banda recibirá el premio "Lifetime Achievement Award”, un galardón de los Grammys que rinde homenaje a aquellos artistas que hicieron a lo largo de su vida contribuciones de gran importancia en el campo de la grabación de música
+          </p>
+        </div>
+        <div class="col-1 mb-5 mr-4">
+          <i class="fas fa-user-tie fa-4x"></i>
+        </div>
+        <div class="col-8">
+          <textarea class="form-control" rows="3" placeholder="Comentario..."></textarea>
+        </div>
+     </div>
+    </div>
+
+    <div class="col-3 d-none d-md-block mt-5">
+        <div class="input-group">
+		    	<input type="text" class="form-control" rows="3" placeholder="Buscar por... ">
+          <span class="input-group-addon"><i class="fas fa-search fa-lg ml-2"></i></span>
+		    </div>
+        <div class="table-responsive mt-4">
+          <table class="table table-hover table-striped">
+            <thead class="thead-light"><th>Categorías:</th></thead>
+            <tbody>
+              <tr><td><a href="#">Cumbia</a></td></tr>
+              <tr><td><a href="#">Reggueton</a></td></tr>
+              <tr><td><a href="#">Folclore</a></td></tr>
+              <tr><td><a href="#">Electronica</a></td></tr>
+              <tr><td><a href="#">Chamame</a></td></tr>
+              <tr><td><a href="#">Flamenco</a></td></tr>
+              <tr><td><a href="#">Latino</a></td></tr>
+              <tr><td><a href="#">Baladas en Español</a></td></tr>
+              <tr><td><a href="#">Baladas en Ingles</a></td></tr>
+              <tr><td><a href="#">Brasilero</a></td></tr>
+              <tr><td><a href="#">Pop</a></td></tr>
+              <tr><td><a href="#">Rock And Roll</a></td></tr>
+              <tr><td><a href="#">Rap</a></td></tr>
+              <tr><td><a href="#">Heavy Metal</a></td></tr>
+              <tr><td><a href="#">Hard Rock</a></td></tr>
+              <tr><td><a href="#">Dance</a></td></tr>
+              <tr><td><a href="#">Blues</a></td></tr>
+              <tr><td><a href="#">Jaz</a></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
